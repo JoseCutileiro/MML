@@ -1,13 +1,11 @@
 # MML compiler
+This project was made with Pascoal 
+Check his profile here -> https://github.com/Dredegui
 
-At the beginning of development, the repository contains source code for the Simple language in which all references to MML have been replaced by MML.
+You can't acess the official repository because it was owned by a teacher
 
-The steps to develop a full MML compiler imply the adaptation of:
-* the scanner (`mml_scanner.l`)
-* the parser (`mml_parser.y`)
-* the symbol (`targets/symbol.h`)
-* the type checker (`targets/type_checker.cpp`)
-* the XML writer (for the middle delivery: `targets/xml_writer.cpp`)
-* the Postfix writer (for the final delivery: `targets/postfix_writer.cpp`)
+# Requirements 
 
-Note that not all the code has to be working for all deliveries. Check the evaluation conditions on the course pages.
+1. CDK
+2. RTS
+
